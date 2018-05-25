@@ -2,9 +2,8 @@
 import random
 
 def main():
-	print ("Guess a number between 1 and 100.")
+	print ("Guess any number between 1 and 100.")
 	randomNumber = random.randint(1,100)
-	#randomNumber = 35
 	found = False
 
 	while not found:
@@ -17,7 +16,7 @@ def main():
 		else:
 			print("Guess the higher value:")
 
-	#print("Thank you for trying my game. :)")
+	
 
 main()
 
